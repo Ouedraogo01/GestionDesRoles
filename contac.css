@@ -1,0 +1,39 @@
+.wrapper{
+    margin-left: 5;
+    margin-right: 5;
+}
+
+.request_message{
+    width: 400px;
+    text-transform: capitalize;
+    background-color: #fff;
+    text-align: center;
+    color: green;
+    font-size: 16px;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    animation: anime 0.7s ease-out;
+}
+
+@keyframes anime {
+    from {
+        transform: translate(-70px);
+    }
+}
+
+
+@media (max-width: 300px){
+
+    .dbox{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .wrapper{
+        margin-left: 0;
+    }
+}
